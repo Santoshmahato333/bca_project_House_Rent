@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+#login{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 8px;
+}
+#signup{
+    border-radius: 8px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.slidesshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+    
+}
+  img {
+    width: 100%;
+  }
+  
+  /* Add any additional styles as needed */
+  
+
+
+.property-management {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+
+.property-list {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 60%;
+    /* height: 10%; */
+    margin:1%
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: block;
+    bottom: 0;
+    width: auto;
+}

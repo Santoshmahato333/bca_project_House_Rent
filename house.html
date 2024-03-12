@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Management System</title>
+    <link rel="stylesheet" href="/css folder/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">HRMS</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#contact">Contact us</a></li> -->
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#notifications">Notifications</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li id="login"><a href="login.html">Login</a></li>
+          <li id="signup"><a href="signup.html">SignUp</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="overview">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="/image/house.jpg" alt="Image 1" width="500" height="400">
+            </div>
+            <div class="mySlides fade">
+              <img src="/image/house1.jpg" alt="Image 2" width="500" height="400">
+            </div>
+            <!-- Add more slides as needed -->
+            <button onclick="nextSlide()"><img src="/image/nexticon.png" alt="icon" width="40px" height="40px"></button>
+          </div>
+    </section>
+
+    <h2>Available Rooms</h2>
+    <section id="properties" class="property-management">
+      <div class="property-list">
+        <img src="/image/dog.jpg" alt="room" width="100%">
+        <h3>Room-1</h3>
+        <p>Rs.50,000</p>
+      </div>
+      <div class="property-list">
+        <img src="/image/dog.jpg" alt="room" width="100%">
+        <h3>Room-2</h3>
+        <p>Rs.50,000</p>
+      </div>
+      <div class="property-list">
+        <img src="/image/dog.jpg" alt="room" width="100%">
+        <h3>Room-3</h3>
+        <p>Rs.50,000</p>
+      </div>
+      <div class="property-list">
+        <img src="/image/dog.jpg" alt="room" width="100%">
+        <h3>Room-4</h3>
+        <p>Rs.50,000</p>
+      </div>
+    </section>
+
+    <!-- Add more sections for agreements, payments, maintenance, notifications, and profile -->
+
+    <footer>
+      <p>&copy; 2024 House Rental Management System</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
